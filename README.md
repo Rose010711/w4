@@ -1,4 +1,4 @@
-# K-means clustering algorithm
+# K-means clustering algorithm 
 
 The K-means clustering on satellite imagery by data code from the Sentinel-2 mission, specifically targeting three different spectral bands.
 K-means clustering is an intuitive algorithm that uncovers and predicts inherent groupings within data without assuming any prior informational data about the data's distribution (Sinaga & Yang, 2020). K-means clustering was chosen because of its useful ability to deal with unknown data structures, especially when searching data. The algorithm is simple and efficient to scale to data sets of all sizes, so it's easy to use it in many practical applications.  
