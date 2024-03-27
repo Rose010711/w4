@@ -51,7 +51,10 @@ plt.show()
 # Sentinel-3
 Sentinel-3, on the other hand, focuses more broadly on Earth’s oceans, land, ice, and atmosphere, supporting long-term global monitoring. It's instrumental in observing sea surface level, land surface temperature, vegetation, and ocean currents among other parameters (Cazzaniga et al., 2019)​​.
 <img width="471" alt="image" src="https://github.com/Rose010711/w4/assets/161240176/a19f8be2-9c9e-499c-943d-1678b4a6b9d4">
+
 This graph shows the results of a data cluster using a Gaussian mixture model (GMM), where each color represents a function that may correspond to a different data feature or category. Here, clusters_gmm == 0 might represent a collection of data points identified as a specific category, such as "sea ice". Each peak in the graph reflects the distribution of different data points within that cluster, with the most prominent peaks representing the most common or typical characteristic responses in that category. If the data comes from the Sentinel-3 satellite, these functions may represent spectral properties of different areas of sea ice or measures of parameters such as sea ice thickness or temperature. Through such analysis, we are able to more accurately understand and monitor changes in sea ice, which is of great value for climate research and ocean navigation.
+
+Sentinel-3 captures the spectral properties of sea ice, and the GMM can process that data to distinguish between clusters or features - for example, between dense areas of sea ice and open waterways what represents it for the leads.
 
 # Sentinel-2 & 3, 
 they are both in the part of European Space Agency's Copernicus program, and utlize the Gaussian Mixture Models for various remote sensing applications by providing the raw data.
